@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{5A4A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C66D024E-FBE9-4C9C-BB44-F8BCA92826E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalWeb.Domain", "Libraries\PortalWeb.Domain\PortalWeb.Domain.csproj", "{E8B529AC-9A13-4D71-845D-26B0CD23922E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalWeb.Domain", "Libraries\PortalWeb.Domain\PortalWeb.Domain.csproj", "{E8B529AC-9A13-4D71-845D-26B0CD23922E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalWeb.Infrastructure", "Libraries\PortalWeb.Infrastructure\PortalWeb.Infrastructure.csproj", "{AD0514B0-B25C-4750-BA29-31E3526C6C61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{E8B529AC-9A13-4D71-845D-26B0CD23922E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8B529AC-9A13-4D71-845D-26B0CD23922E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8B529AC-9A13-4D71-845D-26B0CD23922E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0514B0-B25C-4750-BA29-31E3526C6C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0514B0-B25C-4750-BA29-31E3526C6C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0514B0-B25C-4750-BA29-31E3526C6C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0514B0-B25C-4750-BA29-31E3526C6C61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E8B529AC-9A13-4D71-845D-26B0CD23922E} = {8C84752C-D715-4942-B5B4-317A561D7789}
+		{AD0514B0-B25C-4750-BA29-31E3526C6C61} = {8C84752C-D715-4942-B5B4-317A561D7789}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84345AA6-A679-4099-8E0B-041B214B7B48}
