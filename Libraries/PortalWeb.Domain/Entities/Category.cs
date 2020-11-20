@@ -20,5 +20,7 @@ namespace PortalWeb.Domain.Entities
         public int? ParentId { get; set; }
 
         public Category Parent { get; set; }
+
+        public virtual ICollection<ArticleCategory> ArticleCategories { get; set; }
     }
 }

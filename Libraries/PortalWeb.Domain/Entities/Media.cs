@@ -15,5 +15,7 @@ namespace PortalWeb.Domain.Entities
 
         public MediaType MediaType { get; set; }
 
+        public virtual ICollection<ArticleMedia> ArticleMedias { get; set; }
+
     }
 }
