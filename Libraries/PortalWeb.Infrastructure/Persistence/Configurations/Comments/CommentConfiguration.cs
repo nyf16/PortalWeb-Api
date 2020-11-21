@@ -2,9 +2,6 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using PortalWeb.Domain.Common;
 using PortalWeb.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PortalWeb.Infrastructure.Persistence.Configurations.Comments
 {
@@ -14,8 +11,8 @@ namespace PortalWeb.Infrastructure.Persistence.Configurations.Comments
         {
             builder.Property(s => s.ArticleId).IsRequired();
             builder.Property(s => s.CommentText).IsRequired().HasMaxLength((int)MaxLengthSize.Description);
-            builder.Property(s => new { s.CommenterName, s.CommenterEmail }).IsRequired().HasMaxLength((int)MaxLengthSize.EmailAddress);
+            builder.Property(s => s.CommenterName).IsRequired().HasMaxLength((int)MaxLengthSize.EmailAddress);
+            builder.Property(s => s.CommenterEmail).IsRequired().HasMaxLength((int)MaxLengthSize.EmailAddress);
         }
     }
-
 }
