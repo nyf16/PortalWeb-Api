@@ -30,6 +30,7 @@ namespace PortalWeb.API
             services.AddCustomizeDataStore(Configuration);
 
             services.IntegrateSwagger(Configuration);
+            services.AddApplication();
             services.AddControllers().AddFluentValidation(m => m.RegisterValidatorsFromAssemblyContaining<Startup>());
         }
 
