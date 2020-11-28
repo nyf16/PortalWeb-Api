@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalWeb.Domain", "Librari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalWeb.Infrastructure", "Libraries\PortalWeb.Infrastructure\PortalWeb.Infrastructure.csproj", "{AD0514B0-B25C-4750-BA29-31E3526C6C61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalWeb.Application", "Libraries\PortalWeb.Application\PortalWeb.Application.csproj", "{43C92D23-434D-43B5-A266-B7D9E3E46ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalWeb.Application", "Libraries\PortalWeb.Application\PortalWeb.Application.csproj", "{43C92D23-434D-43B5-A266-B7D9E3E46ECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalWeb.API", "Presentation\PortalWeb.API\PortalWeb.API.csproj", "{C21092DF-E275-4FE7-A631-714FABD8524D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalWeb.API", "Presentation\PortalWeb.API\PortalWeb.API.csproj", "{C21092DF-E275-4FE7-A631-714FABD8524D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalWeb.Shared", "Libraries\PortalWeb.Shared\PortalWeb.Shared.csproj", "{B8DD09E7-AFA0-4426-8BF7-8B91E901F7D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C21092DF-E275-4FE7-A631-714FABD8524D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21092DF-E275-4FE7-A631-714FABD8524D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21092DF-E275-4FE7-A631-714FABD8524D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DD09E7-AFA0-4426-8BF7-8B91E901F7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DD09E7-AFA0-4426-8BF7-8B91E901F7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DD09E7-AFA0-4426-8BF7-8B91E901F7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DD09E7-AFA0-4426-8BF7-8B91E901F7D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{AD0514B0-B25C-4750-BA29-31E3526C6C61} = {8C84752C-D715-4942-B5B4-317A561D7789}
 		{43C92D23-434D-43B5-A266-B7D9E3E46ECE} = {8C84752C-D715-4942-B5B4-317A561D7789}
 		{C21092DF-E275-4FE7-A631-714FABD8524D} = {C66D024E-FBE9-4C9C-BB44-F8BCA92826E6}
+		{B8DD09E7-AFA0-4426-8BF7-8B91E901F7D1} = {8C84752C-D715-4942-B5B4-317A561D7789}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84345AA6-A679-4099-8E0B-041B214B7B48}
